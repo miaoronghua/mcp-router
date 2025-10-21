@@ -83,6 +83,16 @@ GitHub Actions 工作流：
 - `PUBLIC_IDENTIFIER`（Apple Developer 签名身份）
 - `APPLE_API_KEY`、`APPLE_API_KEY_ID`、`APPLE_API_ISSUER`（Apple Notary 公证）
 
+## 🍎 macOS 一键构建（Intel x64）
+
+- 脚本位置：`scripts/macos-x64-setup.sh`
+- 文档说明：参见 [docs/macos-setup.md](./docs/macos-setup.md)
+
+一键命令（无需预先克隆仓库）：
+```bash
+curl -fsSL https://raw.githubusercontent.com/miaoronghua/mcp-router/HEAD/scripts/macos-x64-setup.sh | bash
+```
+
 ## 🐧 Ubuntu 一键构建
 
 - 脚本位置：`scripts/ubuntu-setup.sh`

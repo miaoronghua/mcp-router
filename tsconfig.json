@@ -15,11 +15,14 @@
     "baseUrl": ".",
     "paths": {
       "@mcp_router/shared": ["packages/shared/src"],
-      "@mcp_router/shared/*": ["packages/shared/src/*"]
+      "@mcp_router/shared/*": ["packages/shared/src/*"],
+      "@mcp_router/remote-api-types": ["packages/remote-api-types/src"],
+      "@mcp_router/remote-api-types/*": ["packages/remote-api-types/src/*"]
     }
   },
   "references": [
     { "path": "./packages/shared" },
+    { "path": "./packages/remote-api-types" },
     { "path": "./apps/electron" }
   ],
   "files": []

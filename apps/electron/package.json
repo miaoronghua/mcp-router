@@ -119,12 +119,5 @@
     "ts-node": "^10.9.2",
     "typescript": "^5.9.2",
     "webpack": "^5.101.3"
-  },
-  "pnpm": {
-    "overrides": {
-      "tmp@<=0.2.3": ">=0.2.4",
-      "electron@>=36.0.0-alpha.1 <36.8.1": ">=36.8.1",
-      "jsondiffpatch@<0.7.2": ">=0.7.2"
-    }
   }
 }

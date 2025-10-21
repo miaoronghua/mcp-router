@@ -7,6 +7,7 @@
     "outDir": "dist",
     "jsx": "react-jsx",
     "composite": true,
+    "rootDir": "../../",
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "lib": ["ES2020", "dom"],
@@ -14,11 +15,14 @@
     "paths": {
       "@/*": ["./src/*"],
       "@mcp_router/shared": ["../../packages/shared/src"],
+      "@mcp_router/shared/*": ["../../packages/shared/src/*"],
+      "@mcp_router/remote-api-types": ["../../packages/remote-api-types/src"],
+      "@mcp_router/remote-api-types/*": ["../../packages/remote-api-types/src/*"],
       "@mcp_router/ui": ["../../packages/ui/src"],
       "@mcp_router/ui/*": ["../../packages/ui/src/*"]
     }
   },
-  "include": ["src/**/*", "src/**/*.json", "../../packages/shared/src/types/svg.d.ts"],
+  "include": ["src/**/*", "src/**/*.json", "../../packages/shared/src/types/svg.d.ts", "../../packages/remote-api-types/src/**/*"],
   "references": [
     { "path": "../../packages/shared" },
     { "path": "../../packages/ui" }

@@ -90,7 +90,7 @@ GitHub Actions 工作流：
 
 一键命令（无需预先克隆仓库）：
 ```bash
-curl -fsSL https://raw.githubusercontent.com/mcp-router/mcp-router/main/scripts/ubuntu-setup.sh | bash
+curl -fsSL https://raw.githubusercontent.com/mcp-router/mcp-router/HEAD/scripts/ubuntu-setup.sh | bash
 ```
 
 可通过 `MCP_ROUTER_DIR` / `MCP_ROUTER_BRANCH` 自定义目录与分支。

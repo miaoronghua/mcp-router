@@ -15,7 +15,7 @@ set -euo pipefail
 #   MCP_ROUTER_BRANCH Git branch to use (default: "main")
 #
 # Example (one-liner):
-#   curl -fsSL https://raw.githubusercontent.com/mcp-router/mcp-router/main/scripts/ubuntu-setup.sh | bash
+#   curl -fsSL https://raw.githubusercontent.com/mcp-router/mcp-router/HEAD/scripts/ubuntu-setup.sh | bash
 
 PROJECT_REPO_URL="https://github.com/mcp-router/mcp-router.git"
 DEFAULT_DIR="${HOME}/mcp-router"

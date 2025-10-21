@@ -13,7 +13,7 @@
 无需预先克隆仓库，可直接执行以下命令：
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/mcp-router/mcp-router/main/scripts/ubuntu-setup.sh | bash
+curl -fsSL https://raw.githubusercontent.com/mcp-router/mcp-router/HEAD/scripts/ubuntu-setup.sh | bash
 ```
 
 可选参数/环境变量：
@@ -29,7 +29,7 @@ curl -fsSL https://raw.githubusercontent.com/mcp-router/mcp-router/main/scripts/
 示例：
 ```bash
 # 指定目录与分支
-curl -fsSL https://raw.githubusercontent.com/mcp-router/mcp-router/main/scripts/ubuntu-setup.sh | \
+curl -fsSL https://raw.githubusercontent.com/mcp-router/mcp-router/HEAD/scripts/ubuntu-setup.sh | \
   MCP_ROUTER_DIR="$HOME/mcpr" MCP_ROUTER_BRANCH=main bash
 ```
 

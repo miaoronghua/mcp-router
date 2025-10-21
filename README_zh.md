@@ -83,6 +83,18 @@ GitHub Actions 工作流：
 - `PUBLIC_IDENTIFIER`（Apple Developer 签名身份）
 - `APPLE_API_KEY`、`APPLE_API_KEY_ID`、`APPLE_API_ISSUER`（Apple Notary 公证）
 
+## 🐧 Ubuntu 一键构建
+
+- 脚本位置：`scripts/ubuntu-setup.sh`
+- 文档说明：参见 [docs/ubuntu-setup.md](./docs/ubuntu-setup.md)
+
+一键命令（无需预先克隆仓库）：
+```bash
+curl -fsSL https://raw.githubusercontent.com/mcp-router/mcp-router/main/scripts/ubuntu-setup.sh | bash
+```
+
+可通过 `MCP_ROUTER_DIR` / `MCP_ROUTER_BRANCH` 自定义目录与分支。
+
 ## 🤝 社区
 
 欢迎加入社区，获取帮助、分享想法并获取最新动态：

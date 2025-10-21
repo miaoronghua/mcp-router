@@ -13,7 +13,7 @@
 无需预先克隆仓库，可直接执行以下命令：
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/mcp-router/mcp-router/main/scripts/ubuntu-setup.sh | bash
+curl -fsSL https://raw.githubusercontent.com/miaoronghua/mcp-router/HEAD/scripts/ubuntu-setup.sh | bash
 ```
 
 可选参数/环境变量：
@@ -29,7 +29,7 @@ curl -fsSL https://raw.githubusercontent.com/mcp-router/mcp-router/main/scripts/
 示例：
 ```bash
 # 指定目录与分支
-curl -fsSL https://raw.githubusercontent.com/mcp-router/mcp-router/main/scripts/ubuntu-setup.sh | \
+curl -fsSL https://raw.githubusercontent.com/miaoronghua/mcp-router/HEAD/scripts/ubuntu-setup.sh | \
   MCP_ROUTER_DIR="$HOME/mcpr" MCP_ROUTER_BRANCH=main bash
 ```
 
@@ -62,7 +62,7 @@ corepack enable || true
 corepack prepare pnpm@8.15.6 --activate
 
 # 4) 克隆仓库
-git clone -b main --depth 1 https://github.com/mcp-router/mcp-router.git "$HOME/mcp-router"
+git clone -b main --depth 1 https://github.com/miaoronghua/mcp-router.git "$HOME/mcp-router"
 cd "$HOME/mcp-router"
 
 # 5) 安装依赖 & 构建

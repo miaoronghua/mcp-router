@@ -3,11 +3,11 @@
 
 <div align="center">
 
-[![GitHub stars](https://img.shields.io/github/stars/mcp-router/mcp-router?style=flat&logo=github&label=Star)](https://github.com/mcp-router/mcp-router)
+[![GitHub stars](https://img.shields.io/github/stars/miaoronghua/mcp-router?style=flat&logo=github&label=Star)](https://github.com/miaoronghua/mcp-router)
 [![Discord](https://img.shields.io/badge/Discord-加入我们-7289DA?style=flat&logo=discord)](https://discord.com/invite/dwG9jPrhxB)
 [![X](https://img.shields.io/badge/X(Twitter)-@mcp__router-1DA1F2?style=flat&logo=x)](https://x.com/mcp_router)
 
-[[English](https://github.com/mcp-router/mcp-router/blob/main/README.md) | [日本語](https://github.com/mcp-router/mcp-router/blob/main/README_ja.md) | 中文]
+[[English](https://github.com/miaoronghua/mcp-router/blob/HEAD/README.md) | [日本語](https://github.com/miaoronghua/mcp-router/blob/HEAD/README_ja.md) | 中文]
 
 </div>
 
@@ -38,29 +38,29 @@
 
 ## 📥 安装
 
-可在 [GitHub 发布页](https://github.com/mcp-router/mcp-router/releases) 获取最新版本。
+可在 [GitHub 发布页](https://github.com/miaoronghua/mcp-router/releases) 获取最新版本。
 
 ## 🚀 功能亮点
 
 ### 📊 集中式服务器管理
 在单一控制面板中轻松切换 MCP 服务器的启用状态
 
-<img src="https://raw.githubusercontent.com/mcp-router/mcp-router/main/public/images/readme/toggle.png" alt="服务器管理" width="600">
+<img src="https://raw.githubusercontent.com/miaoronghua/mcp-router/HEAD/public/images/readme/toggle.png" alt="服务器管理" width="600">
 
 ### 🌐 通用连接能力
 支持添加与连接任意 MCP 服务器，无论是本地还是远程环境
 
-<img src="https://raw.githubusercontent.com/mcp-router/mcp-router/main/public/images/readme/add-mcp-manual.png" alt="通用连接" width="600">
+<img src="https://raw.githubusercontent.com/miaoronghua/mcp-router/HEAD/public/images/readme/add-mcp-manual.png" alt="通用连接" width="600">
 
 ### 🔗 一键集成
 与 Claude、Cline、Windsurf、Cursor 等常见 AI 工具或自定义客户端无缝接入
 
-<img src="https://raw.githubusercontent.com/mcp-router/mcp-router/main/public/images/readme/token.png" alt="一键集成" width="600">
+<img src="https://raw.githubusercontent.com/miaoronghua/mcp-router/HEAD/public/images/readme/token.png" alt="一键集成" width="600">
 
 ### 📈 全面的日志与分析
 监控并展示详细的请求日志与统计信息
 
-<img src="https://raw.githubusercontent.com/mcp-router/mcp-router/main/public/images/readme/stats.png" alt="日志与统计" width="600">
+<img src="https://raw.githubusercontent.com/miaoronghua/mcp-router/HEAD/public/images/readme/stats.png" alt="日志与统计" width="600">
 
 ## 🏗️ 构建与发布（macOS Intel x64）
 
@@ -90,7 +90,7 @@ GitHub Actions 工作流：
 
 一键命令（无需预先克隆仓库）：
 ```bash
-curl -fsSL https://raw.githubusercontent.com/mcp-router/mcp-router/main/scripts/ubuntu-setup.sh | bash
+curl -fsSL https://raw.githubusercontent.com/miaoronghua/mcp-router/HEAD/scripts/ubuntu-setup.sh | bash
 ```
 
 可通过 `MCP_ROUTER_DIR` / `MCP_ROUTER_BRANCH` 自定义目录与分支。
@@ -101,7 +101,7 @@ curl -fsSL https://raw.githubusercontent.com/mcp-router/mcp-router/main/scripts/
 
 - 💬 [Discord 社区](https://discord.com/invite/dwG9jPrhxB)
 - 🐦 [在 X (Twitter) 关注我们](https://x.com/mcp_router)
-- ⭐ [在 GitHub 上为我们加星](https://github.com/mcp-router/mcp-router)
+- ⭐ [在 GitHub 上为我们加星](https://github.com/miaoronghua/mcp-router)
 
 ## 📝 许可证
 

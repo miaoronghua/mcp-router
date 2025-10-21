@@ -10,13 +10,13 @@
     "schema",
     "api"
   ],
-  "homepage": "https://github.com/mcp-router/mcp-router#readme",
+  "homepage": "https://github.com/miaoronghua/mcp-router#readme",
   "bugs": {
-    "url": "https://github.com/mcp-router/mcp-router/issues"
+    "url": "https://github.com/miaoronghua/mcp-router/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mcp-router/mcp-router.git",
+    "url": "git+https://github.com/miaoronghua/mcp-router.git",
     "directory": "packages/remote-api-types"
   },
   "license": "Apache-2.0",

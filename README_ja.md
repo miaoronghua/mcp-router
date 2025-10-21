@@ -7,7 +7,7 @@
 [![Discord](https://img.shields.io/badge/Discord-参加する-7289DA?style=flat&logo=discord)](https://discord.com/invite/dwG9jPrhxB)
 [![X](https://img.shields.io/badge/X(Twitter)-@mcp__router-1DA1F2?style=flat&logo=x)](https://x.com/mcp_router)
 
-[[English](https://github.com/mcp-router/mcp-router/blob/main/README.md) | 日本語 | [中文](https://github.com/mcp-router/mcp-router/blob/main/README_zh.md)]
+[[English](https://github.com/mcp-router/mcp-router/blob/HEAD/README.md) | 日本語 | [中文](https://github.com/mcp-router/mcp-router/blob/HEAD/README_zh.md)]
 
 </div>
 
@@ -46,22 +46,22 @@
 ### 📊 一元的なサーバ管理
 単一のダッシュボードからMCPサーバのオン/オフを簡単に切り替え
 
-<img src="https://raw.githubusercontent.com/mcp-router/mcp-router/main/public/images/readme/toggle.png" alt="サーバ管理" width="600">
+<img src="https://raw.githubusercontent.com/mcp-router/mcp-router/HEAD/public/images/readme/toggle.png" alt="サーバ管理" width="600">
 
 ### 🌐 ユニバーサル接続
 ローカルおよびリモートサーバに対応し、あらゆるMCPサーバの追加と接続が可能
 
-<img src="https://raw.githubusercontent.com/mcp-router/mcp-router/main/public/images/readme/add-mcp-manual.png" alt="ユニバーサル接続" width="600">
+<img src="https://raw.githubusercontent.com/mcp-router/mcp-router/HEAD/public/images/readme/add-mcp-manual.png" alt="ユニバーサル接続" width="600">
 
 ### 🔗 ワンクリック連携
 Claude、Cline、Windsurf、Cursorなどの人気AIツールやカスタムクライアントとシームレスに接続
 
-<img src="https://raw.githubusercontent.com/mcp-router/mcp-router/main/public/images/readme/token.png" alt="ワンクリック連携" width="600">
+<img src="https://raw.githubusercontent.com/mcp-router/mcp-router/HEAD/public/images/readme/token.png" alt="ワンクリック連携" width="600">
 
 ### 📈 包括的なロギングと分析
 詳細なリクエストログの監視と表示
 
-<img src="https://raw.githubusercontent.com/mcp-router/mcp-router/main/public/images/readme/stats.png" alt="ログと統計" width="600">
+<img src="https://raw.githubusercontent.com/mcp-router/mcp-router/HEAD/public/images/readme/stats.png" alt="ログと統計" width="600">
 
 ## 🤝 コミュニティ
 

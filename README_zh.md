@@ -7,7 +7,7 @@
 [![Discord](https://img.shields.io/badge/Discord-加入我们-7289DA?style=flat&logo=discord)](https://discord.com/invite/dwG9jPrhxB)
 [![X](https://img.shields.io/badge/X(Twitter)-@mcp__router-1DA1F2?style=flat&logo=x)](https://x.com/mcp_router)
 
-[[English](https://github.com/mcp-router/mcp-router/blob/main/README.md) | [日本語](https://github.com/mcp-router/mcp-router/blob/main/README_ja.md) | 中文]
+[[English](https://github.com/mcp-router/mcp-router/blob/HEAD/README.md) | [日本語](https://github.com/mcp-router/mcp-router/blob/HEAD/README_ja.md) | 中文]
 
 </div>
 
@@ -45,22 +45,22 @@
 ### 📊 集中式服务器管理
 在单一控制面板中轻松切换 MCP 服务器的启用状态
 
-<img src="https://raw.githubusercontent.com/mcp-router/mcp-router/main/public/images/readme/toggle.png" alt="服务器管理" width="600">
+<img src="https://raw.githubusercontent.com/mcp-router/mcp-router/HEAD/public/images/readme/toggle.png" alt="服务器管理" width="600">
 
 ### 🌐 通用连接能力
 支持添加与连接任意 MCP 服务器，无论是本地还是远程环境
 
-<img src="https://raw.githubusercontent.com/mcp-router/mcp-router/main/public/images/readme/add-mcp-manual.png" alt="通用连接" width="600">
+<img src="https://raw.githubusercontent.com/mcp-router/mcp-router/HEAD/public/images/readme/add-mcp-manual.png" alt="通用连接" width="600">
 
 ### 🔗 一键集成
 与 Claude、Cline、Windsurf、Cursor 等常见 AI 工具或自定义客户端无缝接入
 
-<img src="https://raw.githubusercontent.com/mcp-router/mcp-router/main/public/images/readme/token.png" alt="一键集成" width="600">
+<img src="https://raw.githubusercontent.com/mcp-router/mcp-router/HEAD/public/images/readme/token.png" alt="一键集成" width="600">
 
 ### 📈 全面的日志与分析
 监控并展示详细的请求日志与统计信息
 
-<img src="https://raw.githubusercontent.com/mcp-router/mcp-router/main/public/images/readme/stats.png" alt="日志与统计" width="600">
+<img src="https://raw.githubusercontent.com/mcp-router/mcp-router/HEAD/public/images/readme/stats.png" alt="日志与统计" width="600">
 
 ## 🏗️ 构建与发布（macOS Intel x64）
 

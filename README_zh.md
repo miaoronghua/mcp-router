@@ -62,6 +62,27 @@
 
 <img src="https://raw.githubusercontent.com/mcp-router/mcp-router/main/public/images/readme/stats.png" alt="日志与统计" width="600">
 
+## 🏗️ 构建与发布（macOS Intel x64）
+
+在本仓库中，已为 macOS Intel x64 准备好构建与发布脚本：
+
+- 本地打包（生成 DMG/ZIP）
+  - 安装依赖：`pnpm install`
+  - 运行：`pnpm make:mac:x64`
+- 直接发布到 GitHub Release（需提供 `GITHUB_TOKEN`）
+  - 运行：`pnpm publish:mac:x64`
+
+GitHub Actions 工作流：
+- 已新增 `.github/workflows/release-macos-x64.yml`
+- 触发方式：
+  - 推送以 `v` 开头的标签（例如 `v0.5.5`），或
+  - 在 GitHub Actions 页面手动触发 `workflow_dispatch`
+- 工作流会在 `macos-13`（Intel）运行器上构建 x64 产物，并通过 electron-forge 的 GitHub 发布器上传为 Draft/Pre-release。
+
+如需代码签名/公证，可在 CI 环境提供以下变量（可选）：
+- `PUBLIC_IDENTIFIER`（Apple Developer 签名身份）
+- `APPLE_API_KEY`、`APPLE_API_KEY_ID`、`APPLE_API_ISSUER`（Apple Notary 公证）
+
 ## 🤝 社区
 
 欢迎加入社区，获取帮助、分享想法并获取最新动态：

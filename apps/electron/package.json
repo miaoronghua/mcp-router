@@ -18,6 +18,7 @@
     "make:x64": "cross-env NODE_ENV=production npm_config_target_arch=x64 npm_config_target_platform=darwin npm_config_arch=x64 electron-forge make --arch=x64",
     "make:arm64": "cross-env NODE_ENV=production npm_config_target_arch=arm64 npm_config_target_platform=darwin npm_config_arch=arm64 electron-forge make --arch=arm64",
     "publish": "cross-env NODE_ENV=production electron-forge publish",
+    "publish:x64": "cross-env NODE_ENV=production npm_config_target_arch=x64 npm_config_target_platform=darwin npm_config_arch=x64 electron-forge publish --arch=x64",
     "lint": "eslint --ext .ts,.tsx .",
     "lint:fix": "eslint --ext .ts,.tsx . --fix",
     "format": "prettier --write .",

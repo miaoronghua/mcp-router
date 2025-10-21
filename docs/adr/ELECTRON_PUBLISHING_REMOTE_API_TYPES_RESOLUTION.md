@@ -15,7 +15,7 @@ Changes Implemented
 - apps/electron/tsconfig.json now includes:
   - "@mcp_router/remote-api-types": ["../../packages/remote-api-types/src"]
   - "@mcp_router/remote-api-types/*": ["../../packages/remote-api-types/src/*"]
-- This allows webpack/ts-loader to resolve and transpile the package directly from source (outside node_modules), despite excluding node_modules.
+- These mappings improve TypeScript tooling and editor support across the monorepo.
 - Also added a project reference to packages/remote-api-types for clarity.
 - Root tsconfig.json was updated with matching paths and a reference to packages/remote-api-types to improve repo-wide type tooling coherence.
 
@@ -26,6 +26,13 @@ Changes Implemented
   - electron@>=36.0.0-alpha.1 <36.8.1 -> >=36.8.1
   - (jsondiffpatch@<0.7.2 -> >=0.7.2 already existed at root)
 - This removes the pnpm warning and ensures consistent dependency resolution in CI.
+
+3) Webpack aliasing to source for @mcp_router/remote-api-types
+- apps/electron/webpack.renderer.config.ts and apps/electron/webpack.main.config.ts now include resolve.alias entries:
+  - "@mcp_router/remote-api-types" -> ../../packages/remote-api-types/src
+  - "@mcp_router/remote-api-types/schema" -> ../../packages/remote-api-types/src/schema
+- This ensures the Electron bundler (ts-loader + webpack) resolves and transpiles the package directly from source (outside node_modules), even when dist/ has not been built for the package.
+- With this change, the publish/make steps no longer require a prior build of packages/remote-api-types.
 
 Operational Notes
 - With the path alias in place, the Electron webpack build can consume @mcp_router/remote-api-types without requiring a prior build of that package.

@@ -3,11 +3,11 @@
 
 <div align="center">
 
-[![GitHub stars](https://img.shields.io/github/stars/mcp-router/mcp-router?style=flat&logo=github&label=Star)](https://github.com/mcp-router/mcp-router)
+[![GitHub stars](https://img.shields.io/github/stars/miaoronghua/mcp-router?style=flat&logo=github&label=Star)](https://github.com/miaoronghua/mcp-router)
 [![Discord](https://img.shields.io/badge/Discord-Join%20Us-7289DA?style=flat&logo=discord)](https://discord.com/invite/dwG9jPrhxB)
 [![X](https://img.shields.io/badge/X(Twitter)-@mcp__router-1DA1F2?style=flat&logo=x)](https://x.com/mcp_router)
 
-[English | [日本語](https://github.com/mcp-router/mcp-router/blob/HEAD/README_ja.md) | [中文](https://github.com/mcp-router/mcp-router/blob/HEAD/README_zh.md)]
+[English | [日本語](https://github.com/miaoronghua/mcp-router/blob/HEAD/README_ja.md) | [中文](https://github.com/miaoronghua/mcp-router/blob/HEAD/README_zh.md)]
 
 </div>
 
@@ -38,7 +38,7 @@
 
 ## 📥 Installation
 
-Download from our [releases page](https://github.com/mcp-router/mcp-router/releases).
+Download from our [releases page](https://github.com/miaoronghua/mcp-router/releases).
 
 
 ## 🚀 Features
@@ -46,22 +46,22 @@ Download from our [releases page](https://github.com/mcp-router/mcp-router/relea
 ### 📊 Centralized Server Management
 Easily toggle MCP servers on/off from a single dashboard
 
-<img src="https://raw.githubusercontent.com/mcp-router/mcp-router/HEAD/public/images/readme/toggle.png" alt="Server Management" width="600">
+<img src="https://raw.githubusercontent.com/miaoronghua/mcp-router/HEAD/public/images/readme/toggle.png" alt="Server Management" width="600">
 
 ### 🌐 Universal Connectivity
 Add and connect to any MCP server with support for both local and remote servers
 
-<img src="https://raw.githubusercontent.com/mcp-router/mcp-router/HEAD/public/images/readme/add-mcp-manual.png" alt="Universal Connectivity" width="600">
+<img src="https://raw.githubusercontent.com/miaoronghua/mcp-router/HEAD/public/images/readme/add-mcp-manual.png" alt="Universal Connectivity" width="600">
 
 ### 🔗 One-Click Integration
 Seamlessly connect with popular AI tools like Claude, Cline, Windsurf, Cursor, or your custom client
 
-<img src="https://raw.githubusercontent.com/mcp-router/mcp-router/HEAD/public/images/readme/token.png" alt="One-Click Integration" width="600">
+<img src="https://raw.githubusercontent.com/miaoronghua/mcp-router/HEAD/public/images/readme/token.png" alt="One-Click Integration" width="600">
 
 ### 📈 Comprehensive Logging & Analytics
 Monitor and display detailed request logs
 
-<img src="https://raw.githubusercontent.com/mcp-router/mcp-router/HEAD/public/images/readme/stats.png" alt="Logs and Statistics" width="600">
+<img src="https://raw.githubusercontent.com/miaoronghua/mcp-router/HEAD/public/images/readme/stats.png" alt="Logs and Statistics" width="600">
 
 
 ## 🤝 Community
@@ -70,7 +70,7 @@ Join our community to get help, share ideas, and stay updated:
 
 - 💬 [Discord Community](https://discord.com/invite/dwG9jPrhxB)
 - 🐦 [Follow us on X (Twitter)](https://x.com/mcp_router)
-- ⭐ [Star us on GitHub](https://github.com/mcp-router/mcp-router)
+- ⭐ [Star us on GitHub](https://github.com/miaoronghua/mcp-router)
 
 ## 📝 License
 

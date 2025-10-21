@@ -4,7 +4,7 @@
   "private": true,
   "repository": {
     "type": "git",
-    "url": "https://github.com/mcp-router/mcp-router"
+    "url": "https://github.com/miaoronghua/mcp-router"
   },
   "engines": {
     "node": ">=20.0.0",

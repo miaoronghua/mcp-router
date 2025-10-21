@@ -28,6 +28,14 @@ export const mainConfig: Configuration = {
         __dirname,
         "../../packages/platform-api/src",
       ),
+      "@mcp_router/remote-api-types": path.resolve(
+        __dirname,
+        "../../packages/remote-api-types/src",
+      ),
+      "@mcp_router/remote-api-types/schema": path.resolve(
+        __dirname,
+        "../../packages/remote-api-types/src/schema",
+      ),
     },
   },
 };

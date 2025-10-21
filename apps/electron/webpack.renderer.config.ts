@@ -34,6 +34,14 @@ export const rendererConfig: Configuration = {
         __dirname,
         "../../packages/platform-api/src",
       ),
+      "@mcp_router/remote-api-types": path.resolve(
+        __dirname,
+        "../../packages/remote-api-types/src",
+      ),
+      "@mcp_router/remote-api-types/schema": path.resolve(
+        __dirname,
+        "../../packages/remote-api-types/src/schema",
+      ),
       "@mcp_router/ui": path.resolve(__dirname, "../../packages/ui/src"),
       "@mcp_router/tailwind-config": path.resolve(
         __dirname,
